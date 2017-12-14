@@ -10,10 +10,7 @@ static int hello_init(void)
 
 static void hello_exit(void)
 {
-  if (true)
-  {
-    printk(KERN_DEBUG "Exit Hello.\n");
-  }
+  printk(KERN_DEBUG "Exit Hello.\n");
 }
 
 module_init(hello_init);
