@@ -2,21 +2,18 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 
-static int hello_init(void)
+static int mod_init(void)
 {
-  printk(KERN_DEBUG "Hello World!\n");
+  printk(KERN_DEBUG "Good morning ve482!\n");
   return 0;
 }
 
-static void hello_exit(void)
+static void mod_exit(void)
 {
-  if (true)
-  {
-    printk(KERN_DEBUG "Exit Hello.\n");
-  }
+  printk(KERN_DEBUG "Goodbye ve482.\n");
 }
 
-module_init(hello_init);
-module_exit(hello_exit);
+module_init(mod_init);
+module_exit(mod_exit);
 
 MODULE_LICENSE("GNU");

@@ -2,13 +2,10 @@
 ---
 ### Task 1
 
-Write a Linux kernel module, and stand-alone Makefile, that when loaded
-prints to the kernel debug log level, "Hello World!"  Be sure to make
-the module be able to be unloaded as well.
-
-The Makefile should build the kernel module against the source for the
-currently running kernel, or, use an environment variable to specify
-what kernel tree to build it against.
+Write a Linux kernel module, and stand-alone Makefile, that when loaded prints to the kernel debug log
+level, “Good morning ve482!”. Be sure to make the module be able to be unloaded as well.
+The Makefile should build the kernel module against the source for the currently running kernel, or, use
+an environment variable to specify what kernel tree to build it against.
 
 ---
 ### Task 2
@@ -34,8 +31,7 @@ what kernel tree to build it against.
 ### Task 4
 
 Part of the job of being a kernel developer is recognizing the proper Linux kernel coding style. The full description of this coding style can be found in the kernel itself (Documentation/CodingStyle). There
-is also a tool (checkpatch.pl in the scripts directory) available from the kernel source tree. The task for this round consists in refactoring the module from the first task such that it meets the
-requirements of the Linux kernel coding style.
+is also a tool (checkpatch.pl in the scripts directory) available from the kernel source tree. The task for this round consists in refactoring the module from the first task such that it meets the requirements of the Linux kernel coding style.
 
 Note: it is important that everyone follow the same standard so that the patterns become consistent. In other words, you want to make it really easy for other people to find the bugs in your code, and not be
 confused and distracted by other unimportant things (e.g. prefer spaces instead of tabs for indentation).
