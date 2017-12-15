@@ -58,3 +58,10 @@ unloaded.
 
   Note: the misc interface is a very simple way to be able to create a character device, without having to worry about all of the sysfs and character device registration mess.   
   Hint: no need to reserve a real minor number for the test module.
+
+---
+### Task 7
+The tasks this round consist in downloading today’s “linux-next kernel”, build it, and boot it.
+
+Hint: refer to the Linux kernel is development process in Documentation/development-process/ in
+the kernel source itself.
