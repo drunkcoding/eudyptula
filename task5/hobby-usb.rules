@@ -1,0 +1,3 @@
+#usb module
+ACTION=="add", SUBSYSTEM=="usb", RUN+="/sbin/insmod /lib/modules/4.12.0/helloworld.ko"
+ACTION=="remove", SUBSYSTEM=="usb", RUN+="/sbin/rmmod -f /lib/modules/4.12.0/helloworld.ko"
