@@ -1,2 +1,2 @@
-ACTION=="add", SUBSYSTEM=="usb", RUN+="/sbin/insmod /home/thinkingreed/Documents/VE482/eudyptula/task5/helloworld.ko"\n
-ACTION=="remove", SUBSYSTEM=="usb", RUN+="/sbin/rmmod /home/thinkingreed/Documents/VE482/eudyptula/task5/helloworld.ko"\n
+ACTION=="add", SUBSYSTEM=="usb", RUN+="/sbin/insmod /home/thinkingreed/Documents/VE482/eudyptula/task5/helloworld.ko"n
+ACTION=="remove", SUBSYSTEM=="usb", RUN+="/sbin/rmmod /home/thinkingreed/Documents/VE482/eudyptula/task5/helloworld.ko"
