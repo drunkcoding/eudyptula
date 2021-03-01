@@ -1,4 +1,7 @@
 ## EUDYPTULA CHALLENGE
+
+Play around with link kernel
+
 ---
 ### Task 1
 
